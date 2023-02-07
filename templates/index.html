@@ -1,0 +1,47 @@
+<html>
+		<head>
+			<title>A Simple HTTP Server</title>
+            <style type="text/css">
+                body{
+                    font-family: monospace;
+                    font-size: 16pt;
+                    margin: 2cm;
+                }
+                header{
+                    margin: 1cm;
+                    font-size: 24pt;
+                    font-weight: bold;
+                }
+                form{
+                    display: table-cell;
+                }
+                section{
+                    margin: 1cm;
+                    
+                }
+                #button{
+                    margin: 1cm;
+                    margin-top: 2cm;
+                }
+                
+            </style>
+		</head>
+		<body>
+            <header>Fill'r'in</header>
+			<form action="/story">
+                <section>
+                  <label for="name-text">Give me a noun</label>
+                  <input type="text" name="word1" id="name-text">
+                </section>
+                <section>
+                  <label for="name-text">Give me a adjective</label>
+                  <input type="text" name="word2" id="name-text">
+                </section>
+                <section>
+                  <label for="name-text">Give me a noun</label>
+                  <input type="text" name="word3" id="name-text">
+                </section>
+               
+                <input id="button" type="submit" value="Madlibs me">
+		</body>
+	</html>

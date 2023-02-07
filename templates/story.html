@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Custom Greeting</title>
+  <style type="text/css">
+    body{
+        font-family: monospace;
+        font-size: 16pt;
+        margin: 3cm;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your story...</h1>
+  <p>After hiding the painting in his {{.FormValue "word1"}} for two years, he grew {{.FormValue "word2"}} and triend to sell it to a/an {{.FormValue "word3"}} in florence, but was caught. </p>
+  <form method="get" action="/">
+    <button type="submit">Home</button>
+</form>
+</body>
+</html>
